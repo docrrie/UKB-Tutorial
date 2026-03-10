@@ -24,6 +24,7 @@ JupyterLab 是一个在线数据分析工具。相比于其他图形化的数据
 
 在 JupyterLab 的启动选项里，值得注意的配置项有：
 
+- `Cluster Configuration`：Single Node 为单核式，Spark Cluster 为分布式，后者用于处理超大规模数据。我们一般选择前者。
 - `Instance Type`：实例选择，不同的实例有不同的性能和花费。
 - `Duration (in hours)`：运行时长，到了设定的时间会自动关闭 Lab。
 
