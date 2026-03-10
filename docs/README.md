@@ -24,7 +24,7 @@ RStudio 和我们所了解的本地版本基本一致，只不过在浏览器上
 
 在 TOOLS 栏下拉的选项里，即可进入 SAK、JupyterLab、RStudio。
 
-关于他们的简单介绍和使用，可以参考笔者搬运到 B 站的 [UKB 官方教程]( https://www.bilibili.com/video/BV1jcAYzkE49?vd_source=0cd66e11cb61f8225d178bbf042e889a&spm_id_from=333.788.videopod.episodes)（Part5、Part7）。
+关于他们的简单介绍和使用，可以参考笔者搬运到 B 站的 [UKB 官方教程]( https://www.bilibili.com/video/BV1jcAYzkE49/)（Part5、Part7）。
 
 @[bilibili p6](BV1jcAYzkE49)
 
@@ -274,7 +274,29 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
   git push
   ```
 
-#### GitHub 资源
+### GitHub 资源
 
 UKB 团队在 GitHub 上有许多可供参考学习的示例代码。
 
+- **UKB_RAP**
+
+  <RepoCard repo="dnanexus/UKB_RAP" />
+  
+  包括
+  
+  | 子项目                                                       | 参考视频                                                     | 文档                                                         |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | [GWAS](https://github.com/dnanexus/UKB_RAP/tree/main/GWAS)   | [【UKB-GWAS】GWAS on the Research Analysis Platform using regenie](https://www.bilibili.com/video/BV1gQNFzjEjk/) | -                                                            |
+  | [end_to_end_gwas_phewas](https://github.com/dnanexus/UKB_RAP/tree/main/end_to_end_gwas_phewas) | [【UKB GWAS】End to End Target Discovery with GWAS and PheWAS on the UK Biobank Res](https://www.bilibili.com/video/BV11wNczBEF9/) | [End-to-end target discovery with GWAS and PheWAS](https://dnanexus.gitbook.io/uk-biobank-rap/science-corner/end-to-end-target-discovery-with-gwas-and-phewas) |
+  
+- **UKB-RAP-Notebooks-Access**
+
+  <RepoCard repo="UK-Biobank/UKB-RAP-Notebooks-Access" />
+
+  主要讲述如何获取 UKB 上的表型数据。
+  
+- **UKB-RAP-Notebooks-Genomics**
+
+  <RepoCard repo="UK-Biobank/UKB-RAP-Notebooks-Genomics" />
+
+  主要讲述在 UKB-RAP 上进行遗传学研究，内有GWAS、PCA、PRS 计算、变体标注等流程。
