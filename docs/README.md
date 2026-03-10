@@ -6,7 +6,7 @@ createTime: 2026-03-09
 
 # UKB-RAP 速通指南
 
-生物信息学篇
+==*生物信息学篇*==
 
 ## 简介
 
@@ -26,9 +26,9 @@ RStudio 和我们所了解的本地版本基本一致，只不过在浏览器上
 
 关于他们的简单介绍和使用，可以参考笔者搬运到 B 站的 [UKB 官方教程]( https://www.bilibili.com/video/BV1jcAYzkE49?vd_source=0cd66e11cb61f8225d178bbf042e889a&spm_id_from=333.788.videopod.episodes)（Part5、Part7）。
 
-<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116147794022731&bvid=BV1jcAYzkE49&cid=36357933603&p=6&Autoplay=False" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 380px; max-width: 100%"></iframe>
+@[bilibili p6](BV1jcAYzkE49)
 
-<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116147794022731&bvid=BV1jcAYzkE49&cid=36357933845&p=8&Autoplay=False" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 380px; max-width: 100%"></iframe>
+@[bilibili p8](BV1jcAYzkE49)
 
 ## 关于 JupyterLab
 
