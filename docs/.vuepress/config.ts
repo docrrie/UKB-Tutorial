@@ -21,7 +21,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/Y-icon-16x16.png' }],
   ],
 
   bundler: viteBundler(),
@@ -39,7 +39,15 @@ export default defineUserConfig({
     /* 页内信息 */
     // editLink: true,
     // lastUpdated: true,
-    // contributors: true,
+    contributors: {
+      mode: 'block',
+      info: [
+        {
+          username: 'docrrie', // github username
+          name: 'Ziyu Yang',
+        }
+      ]
+    },
     // changelog: false,
 
     /**
@@ -173,5 +181,6 @@ export default defineUserConfig({
     // llmstxt: {
     //   locale: '/',    // 默认仅为主语言生成 llms 友好内容
     // }
+    plugins: { git: true },
   }),
 })
