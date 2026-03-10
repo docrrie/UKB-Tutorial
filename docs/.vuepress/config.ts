@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/<REPO>/',
   lang: 'zh-CN',
   title: 'UKB-Tutorial',
   description: 'A brief tutorial on UKB-RAP for undergrads in clinical medicine',
